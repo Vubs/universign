@@ -12,7 +12,7 @@ use UnexpectedValueException;
 require_once dirname(__DIR__) . '/lib/xmlrpc/xmlrpc.inc';
 require_once dirname(__DIR__) . '/lib/xmlrpc/xmlrpcs.inc';
 require_once dirname(__DIR__) . '/lib/xmlrpc/xmlrpc_wrappers.inc';
-require_once dirname(__DIR__) . '/src/urls/XmlRPCToArray.php';
+require_once dirname(__DIR__) . '/src/utils/XmlRPCToArray.php';
 
 class Requester
 {
